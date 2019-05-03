@@ -1,0 +1,10 @@
+{
+    "sync_config": {
+        "host": "http://localhost",
+        "port": "8899",
+        "ticket_path": "savetickets",
+        "organization_path": "saveorganizations",
+        "user_path": "saveusers",
+        "group_path": "savegroups"
+    }
+}

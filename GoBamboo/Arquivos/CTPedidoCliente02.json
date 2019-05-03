@@ -1,0 +1,25 @@
+{
+	"casodeteste" :	{
+		"nome": "PedidoVenda",
+		"grupo": "Cliente",
+		"descricao": "Cliente inválido",
+		"rotina": "MGVEN.VEN_PCK_PEDIDOVENDARN.P_PedidoVenda;",
+		"retorno": "Cliente 999 não cadastrado ou inativo.",
+		"tempoexecucao": 1,
+		"pedidovenda": {
+			"operacao": "I",
+			"reg_st_id": 1,
+			"reg_st_idpai": 1,
+			"org_in_codigo": 2,
+			"fil_in_codigo": 3,
+			"ped_in_codigo": 0,
+			"cli_in_codigo": 9999,
+			"ped_dt_emissao": "01/12/2014",
+			"cond_st_codigo": "28/35",
+			"rep_in_codigo": 4,
+			"tra_in_codigo": 1639,
+			"tpd_in_codigo": 1,
+			"ser_st_codigo": 1
+		}
+	}
+}

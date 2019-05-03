@@ -1,0 +1,11 @@
+{
+	"ImportPath": "intbasezendesk",
+	"GoVersion": "go1.4",
+	"Deps": [
+		{
+			"ImportPath": "github.com/tealeg/xlsx",
+			"Comment": "go1.1.2-208-g339e2d2",
+			"Rev": "339e2d23d0812714d4b5803b1c3f4581fd633825"
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"ImportPath": "api-zendesk",
+	"GoVersion": "go1.3",
+	"Deps": []
+}

@@ -1,0 +1,12 @@
+{ "servicedesk": 
+   { "dados": [
+	   { "tag": "USUARIO_WS" , "valor": "" }, 
+       { "tag": "SENHA_WS" , "valor": "" },
+       { "tag": "TIPO_DATA" , "valor": "" },
+       { "tag": "DATA_INI" , "valor": "" },
+       { "tag": "DATA_FIM" , "valor": "" },
+       { "tag": "RETORNO" , "valor": "" },
+       { "tag": "CAMPOS" , "valor": "" }
+     ] 
+   } 
+}

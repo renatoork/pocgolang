@@ -1,0 +1,81 @@
+<!doctype html>
+<html ng-app="cadastro-agente">
+<head>
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
+	<link rel="stylesheet" type="text/css" href="vendor/select/select.css" />
+	<link rel="stylesheet" type="text/css" href="bower_components/angular-ui-grid/ui-grid.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" scheme="">
+	<script type="text/javascript" src="vendor/angularjs/angular.js"></script>		
+	<script type="text/javascript" src="vendor/jquery/jquery-2.1.4.js"></script>		
+	<script type="text/javascript" src="vendor/bootstrap/bootstrap.js"></script>		
+	<script type="text/javascript" src="vendor/angularjs/angular-route.min.js"></script>
+	<script type="text/javascript" src="vendor/angularjs/angular-sanitize.js"></script>
+	<script type="text/javascript" src="vendor/angularjs/angular-resource.min.js"></script>
+	<script type="text/javascript" src="vendor/angularjs/angular-touch.js"></script>
+	<script type="text/javascript" src="vendor/angularjs/ui-bootstrap-0.13.0.min.js"></script>
+	<script src="bower_components/cpf_cnpj/build/cpf.js"></script>
+	<script src="bower_components/cpf_cnpj/build/cnpj.js"></script>
+	<script src="bower_components/ng-cpf-cnpj/lib/ngCpfCnpj.js"></script>
+	<script src="bower_components/angular-ui-mask/dist/mask.min.js"></script>
+	<script src="bower_components/oclazyload/dist/ocLazyLoad.js"></script>	
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+	<script type="text/javascript" src="vendor/select/select.js"></script>
+	<script type="text/javascript" src="app/app.js" ></script>
+	<script type="text/javascript" src="app/menu.js" ></script>
+	<script type="text/javascript" src="app/login.js" ></script>	
+</head>
+<body style="padding-top: 55px; padding-bottom: 55px;">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Mega</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="LoginController">    
+				<ul class="nav navbar-nav navbar-right">
+					<li ng-if="usuario"><a>{{usuario}}</a></li>
+					<li ng-if="!usuario"><a href="/login">Login</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div class="container-fluid" ng-controller="MenuController">
+		<div class="row">
+			<div class="col-md-2 col-sm-3 col-xs-12 hidden-xs sidebar">
+				<accordion close-others="oneAtATime">
+				<accordion-group heading="{{modulo.modulo}}" ng-repeat="modulo in menu">
+					<div ng-repeat="tela in modulo.telas" class="list-group-submenu">
+
+					<a class="list-group-item" href="#/{{tela.caminho}}">{{tela.nome}}</a>
+					</div>
+				</accordion-group>
+				</accordion>
+	</div>
+	<div class="col-md-offset-2 col-md-10 col-lg-offset-2 col-lg-10 col-sm-offset-3 col-sm-9 col-xs-12 main">
+		<div ui-view></div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,351 @@
+package main
+
+import (
+	"bytes"
+	"encoding/json"
+	"fmt"
+	//"io/ioutil"
+	//"mime/multipart"
+	"net/http"
+	//"net/url"
+	"strconv"
+	"strings"
+)
+
+type Ticket struct {
+	Ticket struct {
+		Id           int    `json:"id"`
+		Type         string `json:"type"`
+		Subject      string `json:"subject"`
+		Description  string `json:"description"`
+		Organization int    `json:"organization_id"`
+		Requester_id int    `json:"requester_id"`
+		Requester    struct {
+			Name  string `json:"name"`
+			Email string `json:"email"`
+		} `json:"requester"`
+		Comment      CommentSingle  `json:"comment"`
+		Status       string         `json:"status"`
+		CustomFields []CustomFields `json:"custom_fields"`
+	} `json:"ticket"`
+}
+
+type Organization struct {
+	Organization struct {
+		Id   int    `json:"id"`
+		Name string `json:"name"`
+	} `json:"organization"`
+}
+
+type Attachment struct {
+	FileName    string `json:"file_name"`
+	ContentType string `json:"content_type"`
+}
+
+type CustomFields struct {
+	Id    int    `json:"id"`
+	Value string `json:"value"`
+}
+
+type Comment struct {
+	Author_id   int          `json:"author_id"`
+	Body        string       `json:"body"`
+	Public      bool         `json:"public"`
+	Attachments []Attachment `json:"attachments"`
+}
+
+type Comments struct {
+	Comments []Comment `json:"comments"`
+}
+
+type CommentSingle struct {
+	Comment Comment `json:"comment"`
+}
+
+type UsersToCreate struct {
+	Id       int    `json:"id"`
+	Name     string `json:"name"`
+	Email    string `json:"email"`
+	Verified bool   `json:"verified"`
+}
+
+type Users struct {
+	Users []UsersToCreate `json:"users"`
+}
+
+type User struct {
+	User UsersToCreate `json:"user"`
+}
+
+type Search struct {
+	Results []UsersToCreate `json:"results"`
+}
+
+type TicketComment struct {
+	Ticket struct {
+		Comment Comment `json:"comment"`
+	} `json:"ticket"`
+}
+
+func main() {
+
+	fmt.Println("Em funcionamento...")
+	http.HandleFunc("/intzendesk", TransfTickets)
+	err := http.ListenAndServe(":8899", nil)
+	if err != nil {
+		panic(err)
+	}
+}
+
+func TransfTickets(res http.ResponseWriter, req *http.Request) {
+
+	/*client := &http.Client{}
+
+	up := new(bytes.Buffer)
+
+	req, err := http.NewRequest("GET", "http://megasistemas.zendesk.com/attachments/token/r8UKZR2ntVNDN5Ottq29czmFO/?name=TarefaTask.docx", nil)
+	req.SetBasicAuth("andreo@mega.com.br/token", "pzwsg7ItHBIQqX1wzV66sYjl36awkhCXLgyMcjMx")
+	req.Header.Set("Content-Type", "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+
+	resp, err := client.Do(req)
+
+	_bytes, err := ioutil.ReadAll(resp.Body)
+
+	fmt.Printf("Binary: ", string(_bytes))
+
+	urlParam := url.Values{}
+	urlParam.Set("filename", "TarefaTask.docx")
+	urlParam.Add("type", "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+
+	return
+
+	req, err = http.NewRequest("POST", "https://megasistemas.zendesk.com/api/v2/uploads.json"+urlParam.Encode(), up)
+	req.SetBasicAuth("andreo@mega.com.br/token", "pzwsg7ItHBIQqX1wzV66sYjl36awkhCXLgyMcjMx")
+	req.Header.Set("Content-Type", "application/binary")
+
+	respUp, err := client.Do(req)
+
+	b := new(bytes.Buffer)
+	b.ReadFrom(respUp.Body)
+
+	res.Write(b.Bytes())
+
+	return*/
+
+	client := &http.Client{}
+
+	id_ticket := req.FormValue("id")
+	requesterName := req.FormValue("reqname")
+	requesterEmail := req.FormValue("reqemail")
+	token := req.FormValue("token")
+	satisfactionString := req.FormValue("satisfaction")
+	score := req.FormValue("score")
+
+	// token megsistemas
+	//pzwsg7ItHBIQqX1wzV66sYjl36awkhCXLgyMcjMx
+
+	// token megasistemasqualiteam
+	// EYS57O8XtM4l1qkRzBq255UOCHz9Ul9jLmesnIdj
+
+	i, err := strconv.Atoi(id_ticket)
+
+	if (id_ticket == "" && i <= 0 && err != nil) || (requesterName == "" || requesterEmail == "" || satisfactionString == "" || score == "") || (token == "" || token != "910ffU42VVQEXzTjVK8W3VMcj854AA5J") {
+		res.Write([]byte("Passe dados válidos [?id, &reqname, &reqemail]."))
+		return
+	}
+
+	var ticket Ticket
+	var comments Comments
+	var organization Organization
+
+	req, err = http.NewRequest("GET", "https://megasistemas.zendesk.com/api/v2/tickets/"+id_ticket+".json", nil)
+	req.SetBasicAuth("andreo@mega.com.br/token", "pzwsg7ItHBIQqX1wzV66sYjl36awkhCXLgyMcjMx")
+	req.Header.Set("Content-Type", "application/json")
+
+	respTicket, err := client.Do(req)
+
+	reqComment, err := http.NewRequest("GET", "https://megasistemas.zendesk.com/api/v2/tickets/"+id_ticket+"/comments.json", nil)
+	reqComment.SetBasicAuth("andreo@mega.com.br/token", "pzwsg7ItHBIQqX1wzV66sYjl36awkhCXLgyMcjMx")
+	reqComment.Header.Set("Content-Type", "application/json")
+
+	respComment, err := client.Do(reqComment)
+
+	b := new(bytes.Buffer)
+	b.ReadFrom(respTicket.Body)
+
+	err = json.Unmarshal(b.Bytes(), &ticket)
+
+	b = new(bytes.Buffer)
+	b.ReadFrom(respComment.Body)
+
+	err = json.Unmarshal(b.Bytes(), &comments)
+
+	reqOrg, err := http.NewRequest("GET", "https://megasistemas.zendesk.com/api/v2/organizations/"+strconv.Itoa(ticket.Ticket.Organization)+".json", nil)
+	reqOrg.SetBasicAuth("andreo@mega.com.br/token", "pzwsg7ItHBIQqX1wzV66sYjl36awkhCXLgyMcjMx")
+	reqOrg.Header.Set("Content-Type", "application/json")
+
+	respOrg, err := client.Do(reqOrg)
+
+	b = new(bytes.Buffer)
+	b.ReadFrom(respOrg.Body)
+
+	err = json.Unmarshal(b.Bytes(), &organization)
+
+	if err != nil {
+		panic(err)
+	}
+
+	//Atribui dados do requester
+	ticket.Ticket.Requester.Name = requesterName
+	ticket.Ticket.Requester.Email = requesterEmail
+	ticket.Ticket.CustomFields = make([]CustomFields, 1)
+	ticket.Ticket.CustomFields[0].Id = 22930575
+	ticket.Ticket.CustomFields[0].Value = "atendimento_rh" //organization.Organization.Name
+
+	byteTicket, err := json.Marshal(ticket)
+	readerTicket := bytes.NewReader(byteTicket)
+
+	fmt.Printf("%s", string(byteTicket))
+
+	reqPostTicket, err := http.NewRequest("POST", "https://megasistemasqualiteam.zendesk.com/api/v2/tickets.json", readerTicket)
+	reqPostTicket.SetBasicAuth("andreo@mega.com.br/token", "EYS57O8XtM4l1qkRzBq255UOCHz9Ul9jLmesnIdj")
+	reqPostTicket.Header.Set("Content-Type", "application/json")
+
+	respPostTicket, err := client.Do(reqPostTicket)
+
+	bTicket := new(bytes.Buffer)
+	bTicket.ReadFrom(respPostTicket.Body)
+
+	err = json.Unmarshal(bTicket.Bytes(), &ticket)
+
+	//Update no ticket criado para atualizar os comentários.
+	var comment []CommentSingle
+	var user User
+
+	comment = make([]CommentSingle, len(comments.Comments))
+
+	for i := 0; i < len(comments.Comments); i++ {
+
+		comment[i].Comment = comments.Comments[i]
+
+		reqUsers, err := http.NewRequest("GET", "https://megasistemas.zendesk.com/api/v2/users/"+strconv.Itoa(comments.Comments[i].Author_id)+".json", nil)
+		reqUsers.SetBasicAuth("andreo@mega.com.br/token", "pzwsg7ItHBIQqX1wzV66sYjl36awkhCXLgyMcjMx")
+		reqUsers.Header.Set("Content-Type", "application/json")
+
+		respUsers, err := client.Do(reqUsers)
+
+		b = new(bytes.Buffer)
+		b.ReadFrom(respUsers.Body)
+
+		err = json.Unmarshal(b.Bytes(), &user)
+
+		user.User.Verified = true
+
+		rUser := VerifyUserQualiTeam(user.User.Email, client)
+
+		fmt.Println("Usuário verificado: " + user.User.Email + " // Resultado: " + strconv.Itoa(rUser))
+
+		if rUser <= 0 {
+
+			byteUser, err := json.Marshal(user)
+			readerUser := bytes.NewReader(byteUser)
+
+			reqPostUser, err := http.NewRequest("POST", "https://megasistemasqualiteam.zendesk.com/api/v2/users.json", readerUser)
+			reqPostUser.SetBasicAuth("andreo@mega.com.br/token", "EYS57O8XtM4l1qkRzBq255UOCHz9Ul9jLmesnIdj")
+			reqPostUser.Header.Set("Content-Type", "application/json")
+
+			respUser, err := client.Do(reqPostUser)
+
+			b = new(bytes.Buffer)
+			b.ReadFrom(respUser.Body)
+
+			err = json.Unmarshal(b.Bytes(), &user)
+
+			rUser = user.User.Id
+
+			panic_err(err)
+
+		}
+
+		comment[i].Comment.Author_id = rUser
+
+		panic_err(err)
+
+	}
+
+	fmt.Println("Comentários: " + strconv.Itoa(len(comment)) + " //  ID do ticket: " + strconv.Itoa(ticket.Ticket.Id))
+	fmt.Println("URL = https://megasistemasqualiteam.zendesk.com/api/v2/tickets/" + strconv.Itoa(ticket.Ticket.Id) + ".json")
+
+	var ticketComment TicketComment
+
+	for i := 0; i < len(comment); i++ {
+
+		fmt.Println("...")
+		fmt.Println("Entrou no for: [" + strconv.Itoa(i) + "] // Ticket atual: " + strconv.Itoa(ticket.Ticket.Id))
+		fmt.Println("")
+
+		ticketComment.Ticket.Comment = comment[i].Comment
+
+		byteComment, err := json.Marshal(ticketComment)
+		readerComment := bytes.NewReader(byteComment)
+
+		fmt.Println("...")
+		fmt.Printf("%s", string(byteComment))
+		fmt.Println("")
+
+		url := "https://megasistemasqualiteam.zendesk.com/api/v2/tickets/" + strconv.Itoa(ticket.Ticket.Id) + ".json"
+
+		reqPostComment, err := http.NewRequest("PUT", url, readerComment)
+		reqPostComment.SetBasicAuth("andreo@mega.com.br/token", "EYS57O8XtM4l1qkRzBq255UOCHz9Ul9jLmesnIdj")
+		reqPostComment.Header.Set("Content-Type", "application/json")
+		reqPostComment.Header.Add("Cache-Control", "no-cache")
+
+		respPostComment, err := client.Do(reqPostComment)
+
+		b = new(bytes.Buffer)
+		b.ReadFrom(respPostComment.Body)
+
+		fmt.Println("...")
+		fmt.Printf("%s", b.String())
+		fmt.Println("")
+
+		panic_err(err)
+
+	}
+
+	res.Write(bTicket.Bytes())
+
+}
+
+func VerifyUserQualiTeam(email string, client *http.Client) int {
+
+	reqGetUser, err := http.NewRequest("GET", "https://megasistemasqualiteam.zendesk.com/api/v2/search.json?query=type:user%20email:"+email, nil)
+	reqGetUser.SetBasicAuth("andreo@mega.com.br/token", "EYS57O8XtM4l1qkRzBq255UOCHz9Ul9jLmesnIdj")
+	reqGetUser.Header.Set("Content-Type", "application/json")
+
+	respUser, err := client.Do(reqGetUser)
+
+	b := new(bytes.Buffer)
+	b.ReadFrom(respUser.Body)
+
+	var results Search
+
+	err = json.Unmarshal(b.Bytes(), &results)
+
+	panic_err(err)
+
+	if len(results.Results) > 0 {
+		return results.Results[0].Id
+	} else {
+		return 0
+	}
+
+}
+
+func panic_err(err error) {
+
+	if err != nil {
+		panic(err)
+	}
+
+}

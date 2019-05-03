@@ -1,0 +1,188 @@
+{
+   "casoteste": {
+      "grupo": "Performance",
+      "descricao": "CT 1  **Performance**: PDV com 2 itens movimentando estoque (distribuídos por 3 produtos, sendo 1 com conversão de unidade",
+      "rotina": "begin MGVEN.pck_PEDIDOVENDARN.P_PedidoVenda; end;",
+      "retorno": "",
+      "tempo": 1,
+      "gravar": false,
+      "metodo": "I"
+   },
+   "pedidovenda": {
+      "organizacao": "2",
+      "filial": "3",
+      "acao": "1",
+      "serie": "1",
+      "numero": "0",
+      "cliente": "4745",
+      "emissao": "01/01/2015",
+      "condpagto": "28/35",
+      "representante": "",
+      "equipe": "",
+      "transportadora": "1639",
+      "redespacho": "",
+      "tipopedido": "N",
+      "contato": "",
+      "contatofone": "",
+      "contatocargo": "3",
+      "indicemoeda": "",
+      "valormoeda": "",
+      "pedidoespecial": "",
+      "tipodocumento": "1",
+      "freteporconta": "2",
+      "freteembutidodestacado": "D",
+      "usuario": "1",
+      "indicapresenca": "",
+      "indicaconsfinal": "",
+      "observacoes": [
+         {
+            "tipoobservacao": "P",
+            "textoobservacao": "Observação 1, sendo esta do tipo P, gerada pelo Serviço PDV"
+         }
+      ],
+      "itens": [
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "KG",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 2,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação do tipo P para o item, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 2,
+                  "unidade": "KG",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 2
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "75",
+            "produtoalternativo": "",
+            "unidade": "KG",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 2,
+            "valorunitario": "500",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação do tipo P para o item, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 2,
+                  "unidade": "KG",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 2
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

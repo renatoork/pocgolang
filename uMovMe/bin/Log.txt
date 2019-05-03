@@ -1,0 +1,135 @@
+Inicio Integração:  
+
+  - Grupo:  
+
+AtualizarGrupos 
+
+  GetSession 
+
+    Conectado em megaumov/megaumov@pc_ana:1521/orc4 
+
+    Conexão fechada. 
+
+getSubGrupoXml 
+
+Qtde Grupos: 0 
+
+            116ms
+ 
+
+  - Item:  
+
+AtualizarItem 
+
+  GetSession 
+
+    Conectado em megaumov/megaumov@pc_ana:1521/orc4 
+
+    Conexão fechada. 
+
+getItemXml <ROWSET></ROWSET>
+ 
+
+Qtde Item: 0 
+
+            56ms
+ 
+
+  - Cliente:  
+
+AtualizarCliente 
+
+  GetSession 
+
+    Conectado em megaumov/megaumov@pc_ana:1521/orc4 
+
+    Conexão fechada. 
+
+getClienteXml <ROWSET><cliente>
+<ID>61</ID>
+<active>true</active>
+<corporateName>Teste de Cliente Umov x Mega</corporateName>
+<description>TESTE CLIENTE</description>
+<alternativeIdentifier>10000</alternativeIdentifier>
+<city>%!s(<nil>)</city>
+<recordDate1>%!s(<nil>)</recordDate1>
+<recordComplement1>M</recordComplement1>
+</cliente>
+<cliente>
+<ID>64</ID>
+<active>true</active>
+<corporateName>Teste de Cliente Umov x Mega 1</corporateName>
+<description>TESTE CLIENTE 1</description>
+<alternativeIdentifier>10001</alternativeIdentifier>
+<city>%!s(<nil>)</city>
+<recordDate1>%!s(<nil>)</recordDate1>
+<recordComplement1>M</recordComplement1>
+</cliente>
+</ROWSET>
+ 
+
+Qtde Cliente: 0 
+
+            28ms
+ 
+
+  - TipoDocumento:  
+
+AtualizarTipoDocs 
+
+  GetSession 
+
+    Conectado em megaumov/megaumov@pc_ana:1521/orc4 
+
+    Conexão fechada. 
+
+getTipoDocXml 
+
+Qtde TipoDocs: 0 
+
+            32ms
+ 
+
+  - Pedido de Venda:  
+
+https://api.umov.me/CenterWeb/api/11259e5cfe0fffbefcb0c4500648664b70b582/activityHistory.xml?schedule.situation=50&executionExportStatus=false 
+
+200200 OK 
+
+Qtde Pedido: 0 
+
+            1.123s
+ 
+
+  - Importa Cliente Pedido ERP:  
+
+IntegrarClienteERP 
+
+https://api.umov.me/CenterWeb/api/11259e5cfe0fffbefcb0c4500648664b70b582/serviceLocal.xml?active=true&recordComplement1=U 
+
+200200 OK 
+
+https://api.umov.me/CenterWeb/api/11259e5cfe0fffbefcb0c4500648664b70b582/serviceLocal/9925044.xml 
+
+200200 OK 
+
+getCliente 
+
+  GetSession 
+
+    Conectado em megaumov/megaumov@pc_ana:1521/orc4 
+
+    Conexão fechada. 
+
+  GetSession 
+
+    Conectado em megaumov/megaumov@pc_ana:1521/orc4 
+
+    Conexão fechada. 
+
+            17.44s
+ 
+
+Fim Integração:  18.795s
+ 
+

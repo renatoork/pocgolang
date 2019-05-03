@@ -1,0 +1,53 @@
+{
+  "descricao":"Teste Serviço 1",
+  "computador":"PC_RENATO",
+  "usuario":1,
+  "setup":{"rotina" : "ROT", "parametros" : "PAR"},
+  "entrada":{
+	"Pedidovenda":{
+        "Operacao":"I",
+        "reg_st_id":"1",
+        "reg_st_idpai":"1",
+        "Ped_in_sequencia":"1",
+        "org_in_codigo":"2",
+        "fil_in_codigo":"3",
+        "cli_pad_in_codigo":"1",
+        "cli_in_codigo":"254",
+        "Ped_dt_emissao":"28/08/2014",
+        "tpd_pad_in_codigo":"2",
+        "tpd_in_codigo":"3",
+        "acao_pad_in_codigo":"1",
+        "acao_in_codigo":"1",
+        "ser_st_codigo":"1",
+        "ped_ch_situacao":"A",
+        "ped_bo_fatparcial":"N",
+        "ped_bo_integramrp":"N",
+        "itempedido":[
+	        {"operacao":"I",
+	         "itp_in_sequencia":"1",
+	         "pro_pad_in_codigo":"1",
+	         "pro_in_codigo":"72",
+	         "itp_re_quantidade":"1",
+	         "itp_re_valorunitario":"1"
+	        },
+	        {"operacao":"I",
+	         "itp_in_sequencia":"2",
+	         "pro_pad_in_codigo":"1",
+	         "pro_in_codigo":"73",
+	         "itp_re_quantidade":"2",
+	         "itp_re_valorunitario":"2"
+	        }
+        ]  
+    }  
+  },
+  "saida":{
+    "retorno":{
+	  "pdv":"teste", 
+	  "item":[
+	     {"valor":"31123456", "teste":"teste"},
+		 {"valor":"2222222222", "teste":"teste2"}
+	  ]
+	}
+  }  
+}
+

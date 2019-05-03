@@ -1,0 +1,3 @@
+type _ struct {
+	TrfSatcupom interface{} `json:"trf_satcupom"`
+}

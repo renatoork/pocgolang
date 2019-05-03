@@ -1,0 +1,12 @@
+{ "servicedesk": 
+   { "dados": [
+	   { "tag": "USUARIO_WS" , "valor": "" }, 
+       { "tag": "SENHA_WS" , "valor": "" },
+       { "tag": "N_OCORRENCIA" , "valor": "" },
+       { "tag": "DATA_HORA_ATENDIMENTO" , "valor": "" },
+       { "tag": "COD_OPERADOR" , "valor": "" },
+       { "tag": "NOME_OPERADOR" , "valor": "" },
+       { "tag": "DESCRICAO" , "valor": "" }
+     ] 
+   } 
+}

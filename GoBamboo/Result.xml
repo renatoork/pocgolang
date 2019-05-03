@@ -1,0 +1,13 @@
+  <testsuite>
+      <testcase classname="Cliente" name="CT[ 001 ] -  CT 1 **Cliente**: Cliente válido "></testcase>
+      <testcase classname="Cliente" name="CT[ 002 ] -  CT 2 **Cliente**: Cliente inválido "></testcase>
+      <testcase classname="Cliente" name="CT[ 003 ] -  CT 3 **Cliente**: Cliente obrigatório "></testcase>
+      <testcase classname="Cliente" name="CT[ 004 ] -  CT 4 **Cliente**: Cliente inativo "></testcase>
+      <testcase classname="Cliente" name="CT[ 005 ] -  CT 5 **Cliente**: Agente do tipo que não é cliente "></testcase>
+      <testcase classname="Cliente" name="CT[ 006 ] -  CT 6 **Cliente**: Filial com padrão de agente 2 ">
+          <failure> Esperava: null&#xD; Obteve...&#xD;MENSAGEM: Filial inválida.&#xD;SOLUÇÃO : Verifique se o cadastro da filial 15 está ativa, e se o usuário 1 está vinculado.&#xD;ROTINA  : (-20431) Ven_pck_pdvcabecalho.P_Filial.&#xD;</failure>
+      </testcase>
+      <testcase classname="Cliente" name="CT[ 007 ] -  CT 7 **Cliente**: Informado cliente do padrão 1 ">
+          <failure> Esperava: Cliente 254 não cadastrado ou inativo.&#xD; Obteve...&#xD;MENSAGEM: Filial inválida.&#xD;SOLUÇÃO : Verifique se o cadastro da filial 15 está ativa, e se o usuário 1 está vinculado.&#xD;ROTINA  : (-20431) Ven_pck_pdvcabecalho.P_Filial.&#xD;</failure>
+      </testcase>
+  </testsuite>

@@ -1,0 +1,8 @@
+{ "servicedesk": 
+   { "dados": [
+	   { "tag": "USUARIO_WS" , "valor": "" }, 
+       { "tag": "SENHA_WS" , "valor": "" },
+       { "tag": "PARAMS" , "valor": "" }
+     ] 
+   } 
+}

@@ -1,0 +1,17 @@
+<html>
+	<meta charset="UTF-8">
+	<body>
+		<table>
+			<tr>
+				<th>Project</th>
+				<th>Components</th>
+			</tr>
+			{{range .}}
+			<tr>
+				<td>{{.Project}}</td>
+				<td>{{.Components}}</td>
+			</tr>
+			{{end}}
+		</table>
+	</body>
+</html>

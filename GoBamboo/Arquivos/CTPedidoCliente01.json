@@ -1,0 +1,34 @@
+{
+	"casoteste" :{
+		"nome": "PedidoVenda",
+		"grupo": "Cliente",
+		"descricao": "Cliente válido",
+		"rotina": "MGVEN.VEN_PCK_PEDIDOVENDARN.P_PedidoVenda;",
+		"retorno": "null",
+		"tempoexecucao": 1,
+		"entrada": {
+			"pedidovenda": {
+				"operacao": "I",
+				"reg_st_id": 1,
+				"reg_st_idpai": 1,
+				"org_in_codigo": 2,
+				"fil_in_codigo": 3,
+				"ped_in_codigo": 0,
+				"cli_in_codigo": 12,
+				"ped_dt_emissao": "01/12/2014",
+				"cond_st_codigo": "28/35",
+				"rep_in_codigo": 4,
+				"tra_in_codigo": 1639,
+				"tpd_in_codigo": 1,
+				"ser_st_codigo": 1,
+				"itempedido": {
+					"OPERACAO": "I", 
+					"REG_ST_ID": 1,
+					"REG_ST_IDPAI": 1,
+					"ITP_IN_SEQUENCIA": 1,
+					"APL_IN_CODIGO": 101
+				}
+		   }
+		}
+	}
+}

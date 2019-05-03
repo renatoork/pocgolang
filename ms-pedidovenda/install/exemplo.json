@@ -1,0 +1,63 @@
+{
+  "pedidovenda": {
+    "organizacao": 2,
+    "numero": 0,
+    "serie": "1",
+    "filial": 3,
+    "cliente": 254,
+  	"emissao": "29/04/2015",
+    "condpagto": "28/35",
+    "tipopedido": "N",
+    "tipodocumento": 3,
+    "acao": 1,
+    "freteporconta": 2,
+    "freteembutidodestacado": "D",
+  	"usuario": 1,
+    "observacoes": [
+        {
+            "tipoobservacao": "E",
+            "textoobservacao": "Observação gerada no pedido, do tipo E, pelo serviço PDV"
+        }
+    ],	
+    "itens": [
+        {
+            "aplicacao": 101,
+            "produto": 73,
+            "unidade": "KG",
+            "tipoclasse": "1",
+            "quantidade": 0.2,
+            "valorunitario": 10,
+            "valormercadoria": 100,
+            "obsitem": [
+                {
+                    "tipoobservacao": "E",
+                    "textoobservacao": "Observação do tipo E, gerada pelo serviço PDV"
+                }
+            ],
+            "pedprogentregas": [
+                {
+                    "unidade": "KG",
+                    "cliente": 254,
+                    "quantidade": 10,
+                    "dataentrega": "30/05/2015",
+                },
+                {
+                    "unidade": "KG",
+                    "cliente": 254,
+                    "quantidade": 10,
+                    "dataentrega": "30/05/2015",
+                }
+            ]
+        },
+        {
+            "aplicacao": 101,
+            "produto": 73,
+            "unidade": "KG",
+            "tipoclasse": "1",
+            "quantidade": 20,
+            "valorunitario": 10,
+            "valormercadoria": 100,
+        }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+type _ struct {
+	TrfSatcupomitens interface{} `json:"trf_satcupomitens"`
+}

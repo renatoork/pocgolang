@@ -1,0 +1,119 @@
+C
+command;description;alternativeIdentifier;group;active
+I;Sae 1026;93;OU;1
+I;Sae 1060;103;OU;1
+I;Din ST 52-3;113;OU;1
+I;Din 20MNCR5 H;145;OU;1
+I;SCM420HV-2;151;OU;1
+I;Aco F-51;202;OU;1
+I;Aco F-347;206;OU;1
+I;Aco ETN22;209;OU;1
+I;Aco ETN25;210;OU;1
+I;Forjado;295;PA;1
+I;Mecanica Parafusos Allen;223;OU;1
+I;Eletrica Motores;265;OU;1
+I;Embalagens Madeira;357;OU;1
+I;Embalagens Metalica;500;OU;1
+I;Micrometro;375;OU;1
+I;Castanhas,Disco Arraste,Porca;553;OU;1
+I;Sae 1010;88;OU;1
+I;Sae 1050;164;OU;1
+I;Din 20MNCR5;181;OU;1
+I;Din 20MOCR4 E;545;OU;1
+I;Civil Tintas Esmalte;278;OU;1
+I;Civil Diversos;468;OU;1
+I;Aco para matrizes;333;OU;1
+I;ACO VMO;336;OU;1
+I;MATRIZ DE FORJAR;387;DI;1
+I;Materiais Controle Estoque;629;OU;1
+I;Suportes;541;OU;1
+I;INFORMATICA;611;OU;1
+I;Sae 1020;92;OU;1
+I;Sae 1030;97;OU;1
+I;Sae 8620;135;OU;1
+I;Din 20MNCR5 ZF7;146;OU;1
+I;Aco Carbono;157;OU;1
+I;Corte;215;CO;1
+I;Acabado;220;OU;1
+I;Civil Tintas;277;OU;1
+I;Mecanica Pecas de Jato;514;OU;1
+I;Mecanica Servicos de manutenc?o;551;OU;1
+I;Direto no Processo Serras;307;OU;1
+I;Indireto no Processo Lixas;459;OU;1
+I;Embalagens;343;OU;1
+I;Calca azul royal com 04 bolsos;402;OU;1
+I;MATRIZ DE REBARBAR;388;DI;1
+I;MATRIZ DE CALIBRAR;389;DI;1
+I;Castanhas,Disco Arraste,Porca T;381;OU;1
+I;Sae 4320 H;130;OU;1
+I;Din 20MNCR5 DBL;147;OU;1
+I;Aco Inox 304;153;OU;1
+I;Din 20MNCR5 ZF7;183;OU;1
+I;Aco F-11;200;OU;1
+I;Din 17NICRMO 2;547;OU;1
+I;Mecanica Parafusos Sextavado;224;OU;1
+I;Mecanica Oleos;237;OU;1
+I;Mecanica Rolamentos Rolamentos;240;OU;1
+I;Mecanica Abracadeiras Regulavel;245;OU;1
+I;Mecanica Valvulas;488;OU;1
+I;Servicos Prestados - Pessoa Juridica;562;SE;1
+I;Sucata;503;OU;1
+I;Sae 1040;100;OU;1
+I;Din 20MNCR5;144;OU;1
+I;Din 25MOCR4;542;OU;1
+I;Usinado;296;PA;1
+I;Diversas;494;SE;1
+I;Embalagens Metalicas;512;OU;1
+I;SAE 1020;605;OU;1
+I;Usinagem de matrizes;340;OU;1
+I;Brocas;382;OU;1
+I;Gerais;538;OU;1
+I;Sae 1035;95;OU;1
+I;Sae 4140;127;OU;1
+I;Sae 8640;137;OU;1
+I;Din 16MNCR5;139;OU;1
+I;Aco Inox 304;190;OU;1
+I;Forja;216;CO;1
+I;Eletrica Lampadas Fluorescente;253;OU;1
+I;Eletrica Resistencias Resistencias;268;OU;1
+I;Civil;269;OU;1
+I;Mecanica Ferramentas para mecanicos;626;OU;1
+I;Direto no Processo Serras Serra Fita;308;OU;1
+I;Direto no Processo Serras Serra Cermet Disco;309;OU;1
+I;Direto no Processo Desmoldante Grafitado p/ prensa;321;OU;1
+I;Embalagens Plastica Capa plastica;454;OU;1
+I;Paquimetro;374;OU;1
+I;Sae 1050;102;OU;1
+I;S48C-M1;115;OU;1
+I;Sae 8620 H;136;OU;1
+I;Din 16MNCRS5 W3;142;OU;1
+I;Mecanica Correias Correias Montadas;249;OU;1
+I;Civil Tintas Thiner;280;OU;1
+I;Mecanica Diversos;471;OU;1
+I;Eletrica Materiais eletricos diversos;474;OU;1
+I;Mecanica Acos e Bronze p/ manutenc?o;496;OU;1
+I;SAE 1045;596;OU;1
+I;ACO VH13;606;OU;1
+I;Suportes;383;OU;1
+I;Disposisitivo;540;OU;1
+I;Sae 1045;101;OU;1
+I;Sae 4140 H;128;OU;1
+I;Sae 1020;158;OU;1
+I;Sae 1030;160;OU;1
+I;Din 16MNCRS5 W3;179;OU;1
+I;Din 20MOCR4 E;546;OU;1
+I;Beneficiamento Externo;464;CO;1
+I;Mecanica Porcas Sextavada;229;OU;1
+I;Mecanica Correias Tipo "V";248;OU;1
+I;Eletrica Motores Motores;266;OU;1
+I;Mecanica Gaxeta/Retentor;467;OU;1
+I;Mecanica Anel e Cord?o;470;OU;1
+I;Eletrica Bobinas;487;OU;1
+I;Direto no Processo Granalha Granalha de aco;316;OU;1
+I;Embalagens Madeira Caixa de Madeira;358;OU;1
+I;SAE 4340;603;OU;1
+I;Materiais de Informatica;370;OU;1
+I;Extintores;564;OU;1
+I;Insertos;380;OU;1
+I;Ferramenta/Tipos gravac?o usi.;536;OU;1
+I;MAQUINAS E EQUIPAMENTOS;610;OU;1

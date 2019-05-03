@@ -1,0 +1,127 @@
+<CFe>
+    <infCFe Id="CFe35150961099008000141599000021780001799833705" versao="0.06" versaoDadosEnt="0.06" versaoSB="010100">
+        <ide>
+            <cUF>35</cUF>
+            <cNF>983370</cNF>
+            <mod>59</mod>
+            <nserieSAT>900002178</nserieSAT>
+            <nCFe>000179</nCFe>
+            <dEmi>20150923</dEmi>
+            <hEmi>124016</hEmi>
+            <cDV>5</cDV>
+            <tpAmb>2</tpAmb>
+            <CNPJ>61099008000141</CNPJ>
+            <signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</signAC>
+            <assinaturaQRCODE>X0gfzW9STt3toCLhLUM1NrA8W/sV+LW8hrGDSzNYdURjwh2j5AXZiVSYHLd6FplAWj9SaVhAyCIm51JfgjzKePFwWD8Yxsc3albcJEnwFjJqSRYV/tPpvJ87z5/6gGdaS4g61021QgxXrt5zBTF3JXCKOdPWVnZhJm+HBJ14TjNTGcUZf1aqgSv1Hnq5cn1eFOFVK+BfcIhHY3D3Htiqmdq12SN7B9uIorGan1BvTfFkuFkXZCkYHtwncC8t5nAI5NxGfHWUAjQ9lXWSE/lEa+6w2ntGMNuL575NG9DG6ab7xTyzwmY/w5a9RNf8vczXYo3rwNdcTtbVwBGauBnRtQ==</assinaturaQRCODE>
+            <numeroCaixa>123</numeroCaixa>
+        </ide>
+        <emit>
+            <CNPJ>61099008000141</CNPJ>
+            <xNome>DIMAS DE MELO PIMENTA SISTEMAS DE PONTO E ACESSO LTDA</xNome>
+            <xFant>DIMEP</xFant>
+            <enderEmit>
+                <xLgr>AVENIDA MOFARREJ</xLgr>
+                <nro>840</nro>
+                <xCpl>908</xCpl>
+                <xBairro>VL. LEOPOLDINA</xBairro>
+                <xMun>SAO PAULO</xMun>
+                <CEP>05311000</CEP>
+            </enderEmit>
+            <IE>111111111111</IE>
+            <IM>123123</IM>
+            <cRegTrib>3</cRegTrib>
+            <cRegTribISSQN>1</cRegTribISSQN>
+            <indRatISSQN>N</indRatISSQN>
+        </emit>
+        <dest></dest>
+        <det nItem="001">
+            <prod>
+                <cProd>19</cProd>
+                <xProd>MAGNOPYROL GTS 10ML</xProd>
+                <CFOP>5102</CFOP>
+                <uCom>UN</uCom>
+                <qCom>1.0000</qCom>
+                <vUnCom>10.93</vUnCom>
+                <vProd>10.93</vProd>
+                <indRegra>A</indRegra>
+                <vItem>10.93</vItem>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS00>
+                        <Orig>1</Orig>
+                        <CST>00</CST>
+                        <pICMS>0.00</pICMS>
+                        <vICMS>0.00</vICMS>
+                    </ICMS00>
+                </ICMS>
+                <PIS>
+                    <PISAliq>
+                        <CST>01</CST>
+                        <vBC>10.93</vBC>
+                        <pPIS>0.0000</pPIS>
+                        <vPIS>0.00</vPIS>
+                    </PISAliq>
+                </PIS>
+                <COFINS>
+                    <COFINSAliq>
+                        <CST>01</CST>
+                        <vBC>10.93</vBC>
+                        <pCOFINS>0.0000</pCOFINS>
+                        <vCOFINS>0.00</vCOFINS>
+                    </COFINSAliq>
+                </COFINS>
+            </imposto>
+        </det>
+        <total>
+            <ICMSTot>
+                <vICMS>0.00</vICMS>
+                <vProd>10.93</vProd>
+                <vDesc>0.00</vDesc>
+                <vPIS>0.00</vPIS>
+                <vCOFINS>0.00</vCOFINS>
+                <vPISST>0.00</vPISST>
+                <vCOFINSST>0.00</vCOFINSST>
+                <vOutro>0.00</vOutro>
+            </ICMSTot>
+            <vCFe>10.93</vCFe>
+            <vCFeLei12741>0.00</vCFeLei12741>
+        </total>
+        <pgto>
+            <MP>
+                <cMP>01</cMP>
+                <vMP>10.93</vMP>
+            </MP>
+            <vTroco>0.00</vTroco>
+        </pgto>
+        <infAdic>
+            <infCpl>FIL:027 CXA:09 OP-CXA:099 REL:22092015:5        Trib aprox R$: 1,47 Federal e 1,31 Estadual     Fonte: IBPT/FECOMERCIO SP             9oi3aC      TROCA E DEVOLUCAO SOMENTE NA LOJA DA COMPRA          COM A APRESENTACAO DO CUPOM FISCAL       </infCpl>
+            <obsFisco xCampo="xCampo1">
+                <xTexto>xTexto1</xTexto>
+            </obsFisco>
+        </infAdic>
+    </infCFe>
+    <Signature
+        xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo
+            xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+            <Reference URI="#CFe35150961099008000141599000021780001799833705">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+                    <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+                <DigestValue>cbnvmhBzicbd4G2+SBAgrm6QbgIhLrSxHKP8rU9lQW0=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>Ls0F70ULFLuGp59YmecH7jFfEIhNYDasHppQ5QhgqE5YkUP8cc5oZIKUyfOr5mPjQ9CqG7k6W8ZjgeFaHzH4vqrHqvTNTjZBgfsf2l6019D9ME4EtAubBlzu1shL50FncxakkjdAdhYvYff4foWILEYdPdSU4MsU/4Qjjtgfg47cYFb1Yzadl/bUCMGXjs1qGiewLEiLIy6DMOyJujwAbkfvSSGQwRFKJivtVCVymq9hWI9BUPinqGOK8Y9GXe8bzU+NiV/n2mXKZGPfxsCia1QcKQ39OvhBhd3LXgmNWtnnzoMACu0Ts37nAmfyUiQ82U6zhq36357jsG37RsZNXw==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>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</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+</CFe>
+

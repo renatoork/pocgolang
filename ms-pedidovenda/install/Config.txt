@@ -1,0 +1,25 @@
+Configuração do ambiente:
+
+API_PEDIDOVENDA_PORT - Número da porta fixa para carregar o serviço. 
+						Se não passado o numero da porta como parâmetro de execução, o serviço utiliza a porta configurada nesta variável para carregar o serviço. Se não estiver configurado o serviço utiliza uma aleatória.
+
+API_PEDIDOVENDA_HOST - Endereço no qual o serviço de Pedido de Venda será carregado. Se não informado o serviço é carregado em localhost (127.0.0.1).
+
+
+API_PEDIDOVENDA_ORACLE - Connect String de conexão com o Oracle. Formato: user/senha@HOST:PORTA/SID. Exemplo: MGVEN/MEGAVEN@SERVIDOR:1521/MEGA
+
+API_ANALISECREDITO_PATH - Path do serviço. Se não informado o  serviço de Pedido  Exemplo: "/api/v1" 
+
+API_ANALISECREDITO_NOME - Nome do servico de Credito. Exemplo: "credito"
+
+API_ANALISECREDITO_HOST - Endereço no qual o serviço de Crédito esta carregado. Se não informado o serviço de pedido faz o consumo em localhost (127.0.0.1). E se o serviço de Pedido de Venda estiver carregado no Consul, este faz o consumo do serviço de Crédito via Consul também.
+
+
+API_ANALISECREDITO_PORT - Número da porta em que o servico de Crédito esta carregado. Se não informado o serviço de Pedido de Venda faz o consumo na porta 8081. E se o serviço de Pedido de Venda estiver carregado no Consul, este faz o consumo do serviço de Crédito via Consul também.
+
+Comando de linha: ms-pedidovenda - porta 3333 - consul
+	PORTA - Número da porta para carregar o serviço. Se não informado o serviço utiliza a variável de ambiente API_PEDIDOVENDA_PORT ou seleciona uma de forma aleatória.
+	CONSUL - Se passado o serviço se registra no Consul.io para descoberta de serviço. Se não passado o serviço é carregado conforme as configurações.
+
+
+

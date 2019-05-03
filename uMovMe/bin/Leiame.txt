@@ -1,0 +1,35 @@
+uMovMe.EXE
+  Aplicação que faz a integração com a plataforma uMov.Me com o Mega ERP.
+  Integra:
+    - ERP para UMOV
+      . Cadastro Produtos
+      . Cadastro Cliente
+      . Cadastro Tipo Documento Vendas
+
+    - UMOV para ERP
+      . Cadastro de Cliente
+      . Pedidos Retornados de Campos (Situacao = 50)
+
+Instalação:
+  Executar o script de criação dos objetos;
+  Copiar o uMovMe.EXE e o Config.jason para um diretório dentro do Mega ERP;
+  Configurar o Config.json conforme instrução abaixo:
+    - TAG: "oracle" - connect string da base do Mega ERP.
+    - TAG: "umovkey" - Token do uMov do cliente.
+  Criar uma tarefa agendada no Windows para rodar o uMovMe.EXE conforme o período desejado.
+
+Observações:
+  - As restrições de registro de cliente, item, grupo e tipo de documento que serão enviados para o uMov.Me deverão ser implementados caso a caso no cliente dentro da trigger da respectiva tabela.
+    . Cliente - MGGLO.GLO_AGENTES
+    . Item - MGADM.EST_PRODUTOS
+    . Grupo - MGADM.EST_GRUPOS
+    . Tipo de Documento - MGVEN.VEN_TIPODOCUMENTO
+  - A regra do valor unitário dos pedidos que serão importados no MEGA ERP deve ser implementada na trigger da tabela MGWEB.VEN_ITEMPEDIDOVENDA.
+
+  - Para desativar todos os registros no UMOV.ME basta executar o aplicativo com o parametro INATIVAR:
+    . C:\> umovme inativar <enter>
+  - Para executar somente um cadatro, basta executar o aplicativo com o nome do cadastro a tratar:
+    . C:\> umovme cliente <enter> - para integrar somente os clientes;
+    . c:\> umovme cliente inativar <enter> - para inativar todos os clientes;
+ 
+    - LOG

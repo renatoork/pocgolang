@@ -1,0 +1,2 @@
+echo Carrega Servico Discover (Consul)
+consul agent -server -bootstrap-expect 1 -config-file d:\desenv\git\go\src\pedido\config.json -data-dir=d:\temp\consul

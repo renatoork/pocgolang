@@ -1,0 +1,7 @@
+C
+command;description;alternativeIdentifier;active
+I;Componente;CO;1
+I;Dispositivo / Ferramental;DI;1
+I;Servico;SE;1
+I;Outros;OU;1
+I;Produto Acabado;PA;1

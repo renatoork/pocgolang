@@ -1,0 +1,3630 @@
+{
+   "casoteste": {
+      "grupo": "Performance",
+      "descricao": "CT 3  **Performance**: 20 itens (mesmo produto com conversão de unidade) com 5 programações de entrega + 5 observacoes cada item",
+      "rotina": "begin MGVEN.VEN_PCK_PEDIDOVENDARN.P_PedidoVenda; end;",
+      "retorno": "",
+      "tempo": 1,
+      "gravar": false,
+      "metodo": "I"
+   },
+   "pedidovenda": {
+      "organizacao": "2",
+      "filial": "3",
+      "acao": "1",
+      "serie": "1",
+      "numero": "",
+      "cliente": "254",
+      "emissao": "01/01/2015",
+      "condpagto": "28/35",
+      "representante": "4",
+      "equipe": "",
+      "transportadora": "1639",
+      "redespacho": "",
+      "tipopedido": "N",
+      "contato": "",
+      "contatofone": "",
+      "contatocargo": "3",
+      "indicemoeda": "",
+      "valormoeda": "",
+      "pedidoespecial": "",
+      "tipodocumento": "1",
+      "freteporconta": "2",
+      "freteembutidodestacado": "D",
+      "usuario": "1",
+      "indicapresenca": "",
+      "indicaconsfinal": "",
+      "observacoes": [
+         {
+            "tipoobservacao": "P",
+            "textoobservacao": "Observação 1, sendo esta do tipo P, gerada pelo Serviço PDV"
+         },
+         {
+            "tipoobservacao": "P",
+            "textoobservacao": "Observação 2, sendo esta do tipo P, gerada pelo Serviço PDV"
+         }
+      ],
+      "itens": [
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 1, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 1, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 1, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 1, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 1, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 2, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 2, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 2, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 2, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 2, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 3, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 3, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 3, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 3, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 3, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 4, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 4, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 4, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 4, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 4, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 5, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 5, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 5, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 5, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 5, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 6, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 6, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 6, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 6, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 6, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 7, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 7, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 7, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 7, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 7, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 8, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 8, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 8, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 8, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 8, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 9, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 9, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 9, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 9, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 9, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 10, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 10, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 10, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 10, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 10, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 11, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 11, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 11, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 11, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 11, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 12, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 12, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 12, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 12, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 12, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 13, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 13, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 13, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 13, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 13, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 14, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 14, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 14, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 14, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 14, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 15, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 15, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 15, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 15, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 15, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 16, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 16, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 16, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 16, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 16, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 17, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 17, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 17, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 17, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 17, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 18, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 18, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 18, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 18, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 18, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 19, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 19, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 19, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 19, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 19, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "produto": "72",
+            "produtoalternativo": "",
+            "unidade": "CX",
+            "descricao": "",
+            "complemento": "",
+            "ncm": "",
+            "servico": "",
+            "aplicacao": "101",
+            "tabelapreco": "5",
+            "tipopreco": "1",
+            "identificadorprojeto": "",
+            "projeto": "",
+            "identificadorcentrocusto": "",
+            "centrocusto": "",
+            "quantidade": 1,
+            "valorunitario": "333",
+            "valormercadoria": "",
+            "valormercadoriaEmpregada": "",
+            "valormaoobra": "",
+            "frete": "",
+            "seguro": "",
+            "despesaacessoria": "",
+            "codigopedidocliente": "",
+            "codigoprodutocliente": "",
+            "percentualdesconto": "",
+            "valordesconto": "",
+            "percentualacrescimo": "",
+            "valoracrescimo": "",
+            "totalizaitem": "",
+            "valorimportacao": "",
+            "valorcaucao": "",
+            "composicao": "",
+            "tipoclasse": "1",
+            "itemespecial": "",
+            "formatoconversao": "",
+            "embalagem": "",
+            "unidadeembalagem": "",
+            "formatoembalagem": "",
+            "obsitem": [
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 1/5 sendo esta do tipo P para o item 20, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 2/5 sendo esta do tipo G para o item 20, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "G",
+                  "textoobservacao": "Observação 3/5 sendo esta do tipo G para o item 20, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 4/5 sendo esta do tipo P para o item 20, gerada pelo Serviço PDV"
+               },
+               {
+                  "tipoobservacao": "P",
+                  "textoobservacao": "Observação 5/5 sendo esta do tipo P para o item 20, gerada pelo Serviço PDV"
+               }
+            ],
+            "pedprogentregas": [
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               },
+               {
+                  "cliente": "254",
+                  "enderecoentrega": "",
+                  "quantidade": 0.2,
+                  "unidade": "CX",
+                  "formatoconversao": "",
+                  "embalagem": "",
+                  "dataentrega": "01/01/2015",
+                  "tipoentrega": "",
+                  "tipodata": "",
+                  "pedprogestoque": [
+                     {
+                        "almoxarifado": "10",
+                        "localizacao": "1",
+                        "natureza": "DP",
+                        "referencia": "",
+                        "lote": "",
+                        "dataentrada": "01/01/2000",
+                        "datavalidade": "01/01/2000",
+                        "quantidade": 20
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

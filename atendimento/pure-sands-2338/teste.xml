@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:server.Multidados">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<urn:DadosServicedesk soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+			<USUARIO_WS xsi:type="xsd:string">andre.luis</USUARIO_WS>
+			<SENHA_WS xsi:type="xsd:string">123mudar</SENHA_WS>
+	        <COD_DIVISAO xsi:type="xsd:string">REL_ZEND</COD_DIVISAO><COD_SOLICITACAO xsi:type="xsd:string">ATEND_ZENDESK</COD_SOLICITACAO><NOME_CLIENTE xsi:type="xsd:string">MAUBERTEC</NOME_CLIENTE><CODIGO_OC xsi:type="xsd:string">1059</CODIGO_OC><COD_ABERTO_POR xsi:type="xsd:string">DEBORA_A</COD_ABERTO_POR><COD_ORIGEM xsi:type="xsd:string">Z</COD_ORIGEM><DESCRICAO xsi:type="xsd:string">teste de integração Zendesk_</DESCRICAO>
+    	</urn:DadosServicedesk>
+	</soapenv:Body>
+	</soapenv:Envelope>

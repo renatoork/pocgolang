@@ -1,0 +1,12 @@
+type _ struct {
+	VENOBSERVACAOPEDIDOINT []struct {
+		Operacao            string `json:"operacao"`
+		OrgInCodigo         string `json:"org_in_codigo"`
+		PedInCodigo         string `json:"ped_in_codigo"`
+		PobChTipoobservacao string `json:"pob_ch_tipoobservacao"`
+		PobStObservacao     string `json:"pob_st_observacao"`
+		RegStId             string `json:"reg_st_id"`
+		RegStIdpai          string `json:"reg_st_idpai"`
+		SerStCodigo         string `json:"ser_st_codigo"`
+	} `json:"VEN_OBSERVACAOPEDIDO_INT"`
+}

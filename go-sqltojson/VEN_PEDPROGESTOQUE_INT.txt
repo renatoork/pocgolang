@@ -1,0 +1,27 @@
+type _ struct {
+	VENPEDPROGESTOQUEINT []struct {
+		AlmInCodigo        string `json:"alm_in_codigo"`
+		IpeInSequencia     string `json:"ipe_in_sequencia"`
+		IpeReQtdeentregue  string `json:"ipe_re_qtdeentregue"`
+		IpeReQtdefaturada  string `json:"ipe_re_qtdefaturada"`
+		IreChTiporeserva   string `json:"ire_ch_tiporeserva"`
+		ItpInSequencia     string `json:"itp_in_sequencia"`
+		LmsReQuantidade    string `json:"lms_re_quantidade"`
+		LocInCodigo        string `json:"loc_in_codigo"`
+		MieInSeqmattitdoc  string `json:"mie_in_seqmattitdoc"`
+		MvsDtEntrada       string `json:"mvs_dt_entrada"`
+		MvsDtValidade      string `json:"mvs_dt_validade"`
+		MvsInReserva       string `json:"mvs_in_reserva"`
+		MvsStLoteforne     string `json:"mvs_st_loteforne"`
+		MvsStReferencia    string `json:"mvs_st_referencia"`
+		NatStCodigo        string `json:"nat_st_codigo"`
+		Operacao           string `json:"operacao"`
+		OrgInCodigo        string `json:"org_in_codigo"`
+		PedInCodigo        string `json:"ped_in_codigo"`
+		PpeInSequencia     string `json:"ppe_in_sequencia"`
+		RegStId            string `json:"reg_st_id"`
+		RegStIdpai         string `json:"reg_st_idpai"`
+		SerStCodigo        string `json:"ser_st_codigo"`
+		SoiReQuantidadesol string `json:"soi_re_quantidadesol"`
+	} `json:"VEN_PEDPROGESTOQUE_INT"`
+}

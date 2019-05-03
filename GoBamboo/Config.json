@@ -1,0 +1,21 @@
+{
+  "oracle" : "mgtst/megatst@pc_ana:1521/orc4",
+  "nomerotinaexecuta" : "mgtst.ven_pck_pedidovendatst.p_executactpedido('Cliente')",
+  "nomerotinaresultado" : "mgtst.ven_pck_pedidovendatst.f_ResultadoCTPedidoPipe",
+  "servico": "true",
+  "servicoaddress": "127.0.0.1:18800",
+  "configServico": {
+	"id": "pdv1",
+	"name": "pedidovenda",
+	"tags": ["v1"],
+	"port": 5000,
+	"address": "127.0.0.1",
+	"check": {
+		"ID": "pdvcheck1",
+		"Http": "http://localhost:5000/teste",
+		"Interval": "10s",
+		"Name": "Pedido de Venda",
+		"Timeout": "2s"
+	}
+  }
+}
